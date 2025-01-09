@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dreamcatalystventures/akariui-react-bootstrap-core.git"
+    "url": "https://github.com/dreamcatalystventures/akariui-bs-react.git"
   },
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs",
