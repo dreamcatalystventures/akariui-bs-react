@@ -90,23 +90,4 @@ A flexible card component for displaying content.
 />
 ```
 
-### Additional Components
-
-Check the [documentation](#) for details on all available components.
-
-## Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature/fix.
-3. Submit a pull request with a detailed description of your changes.
-
-## License
-
-Akari UI is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-## Contact
-
-For issues, questions, or suggestions, please open an issue in this repository or contact us at [support@akari-ui.com](mailto:support@akari-ui.com).
 
