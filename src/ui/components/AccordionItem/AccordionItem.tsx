@@ -1,13 +1,6 @@
-import {ReactNode} from 'react'
-
-interface Props {
-  id: string
-  children: ReactNode
-  parent: string
-  title: string
-}
-
-const AccordionItem = ({id, children, parent, title}: Props) => {
+import { AccordionItemProps } from "./AccordionItem.type" 
+ 
+ const AccordionItem = ({id, children, parent, title}: AccordionItemProps) => {
   return (
     <>
       <div className='accordion-item'>

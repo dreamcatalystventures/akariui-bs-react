@@ -1,13 +1,13 @@
-import {ReactNode} from 'react'
-import { AccordianProps } from './Accordian.types'
-const Accordion = ({id, children}: AccordianProps) => {
+import { AccordionProps } from "./Accordion.type";
+
+const Accordion = ({ id, children }: AccordionProps) => {
   return (
     <>
-      <div className='accordion' id={id}>
+      <div className="accordion" id={id}>
         {children}
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Accordion
+export default Accordion;

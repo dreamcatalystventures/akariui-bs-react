@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-export interface AccordianProps {
+export interface AccordionProps {
   id: string;
   children: ReactNode;
 }
