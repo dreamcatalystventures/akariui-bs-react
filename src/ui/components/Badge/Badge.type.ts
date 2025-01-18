@@ -1,4 +1,7 @@
+import { BootstrapUI } from "../../enums/BootstrapUI"
+
 export interface BadgeProps {
-  __PASTE PROPS FROM OLD FILE OR ADD NEW ONES__
+  type: BootstrapUI
+  text: string
 }
 

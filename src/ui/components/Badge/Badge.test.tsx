@@ -1,18 +1,12 @@
-import React from "react";
-import { render, screen, fireEvent } from "@testing-library/react";
-import userEvent from '@testing-library/user-event'
-import { expect, jest, test } from "@jest/globals";
+import { render, screen } from "@testing-library/react";
+import { expect, test } from "@jest/globals";
 import Badge from "./Badge";
+import { BootstrapUI } from "../../enums/BootstrapUI";
 describe("Badge", () => {
   //simple render for component
   test("render the test Badge", async () => {
-    render(
-      <Badge
-         __ PASTE PROPS USAGE __
-      />
-    );
+    render(<Badge type={BootstrapUI.Info} text="Hello Badge" />);
     const badge = screen.getByText("I am a test Badge");
     expect(badge).toBeInTheDocument();
   });
-
 });

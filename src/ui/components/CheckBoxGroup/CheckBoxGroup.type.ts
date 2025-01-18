@@ -1,4 +1,9 @@
-export interface CheckBoxGroupProps {
-  __PASTE PROPS FROM OLD FILE OR ADD NEW ONES__
-}
+import { Option } from "../../../domain/types/Option.type";
+import { Control } from "../../../infrastrature/thirdparty";
 
+export interface CheckBoxGroupProps {
+  name: string;
+  options: Option[];
+  className: string;
+  control: Control<any, any>;
+}

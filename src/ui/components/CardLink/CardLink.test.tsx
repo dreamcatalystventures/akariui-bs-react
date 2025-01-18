@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
-import userEvent from '@testing-library/user-event'
+import userEvent from "@testing-library/user-event";
 import { expect, jest, test } from "@jest/globals";
 import CardLink from "./CardLink";
 describe("CardLink", () => {
@@ -8,11 +8,12 @@ describe("CardLink", () => {
   test("render the test CardLink", async () => {
     render(
       <CardLink
-         __ PASTE PROPS USAGE __
+        title={"This is a card link"}
+        to="/some-path"
+        icon={<>Icon</>}
       />
     );
     const cardLink = screen.getByText("I am a test CardLink");
     expect(cardLink).toBeInTheDocument();
   });
-
 });

@@ -1,9 +1,20 @@
-import { BreadcrumbProps } from "./Breadcrumb.type" 
- 
- const Breadcrumb = ({___LIST_OF_PROPS____}: BreadcrumbProps) => {
-  return (
-      /*ADD COMPONENT CONTENT*/
-  )
-}
+import { BreadcrumbProps } from "./Breadcrumb.type";
 
-export default Breadcrumb
+const Breadcrumb = ({ active, navItems }: BreadcrumbProps) => {
+  return (
+    <ol className="breadcrumb text-muted fs-6 fw-bold mb-5">
+      {navItems.map((item: string) => {
+        return (
+          <li className="breadcrumb-item pe-3">
+            <a href="#" className="pe-3">
+              {item}
+            </a>
+          </li>
+        );
+      })}
+      <li className="breadcrumb-item px-3 text-muted">{active}</li>
+    </ol>
+  );
+};
+
+export default Breadcrumb;
