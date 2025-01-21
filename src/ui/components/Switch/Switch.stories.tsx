@@ -13,5 +13,5 @@ export default {
 export const ComponentExample = Template.bind({});
 
 ComponentExample.args = {
-   ___ASSIGN_PROPS_USAGE___
+   test: "Not Implemented"
 };

@@ -8,7 +8,7 @@ describe("FlexCaptionButton", () => {
   test("render the test FlexCaptionButton", async () => {
     render(
       <FlexCaptionButton
-         __ PASTE PROPS USAGE __
+         test={"I am a test FlexCaptionButton"}
       />
     );
     const flexCaptionButton = screen.getByText("I am a test FlexCaptionButton");

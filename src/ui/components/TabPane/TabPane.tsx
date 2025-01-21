@@ -1,8 +1,9 @@
+import React from "react";
 import { TabPaneProps } from "./TabPane.type" 
  
- const TabPane = ({___LIST_OF_PROPS____}: TabPaneProps) => {
+ const TabPane = ({test}: TabPaneProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

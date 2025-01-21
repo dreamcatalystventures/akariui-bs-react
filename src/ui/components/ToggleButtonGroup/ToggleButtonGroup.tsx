@@ -1,8 +1,9 @@
+import React from "react";
 import { ToggleButtonGroupProps } from "./ToggleButtonGroup.type" 
  
- const ToggleButtonGroup = ({___LIST_OF_PROPS____}: ToggleButtonGroupProps) => {
+ const ToggleButtonGroup = ({test}: ToggleButtonGroupProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

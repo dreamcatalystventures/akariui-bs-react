@@ -1,8 +1,9 @@
+import React from "react";
 import { InputTextAreaProps } from "./InputTextArea.type" 
  
- const InputTextArea = ({___LIST_OF_PROPS____}: InputTextAreaProps) => {
+ const InputTextArea = ({test}: InputTextAreaProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

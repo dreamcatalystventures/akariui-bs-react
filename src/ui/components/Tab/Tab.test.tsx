@@ -8,7 +8,7 @@ describe("Tab", () => {
   test("render the test Tab", async () => {
     render(
       <Tab
-         __ PASTE PROPS USAGE __
+         test={"I am a test Tab"}
       />
     );
     const tab = screen.getByText("I am a test Tab");

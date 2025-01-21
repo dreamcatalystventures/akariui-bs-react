@@ -11,7 +11,7 @@ describe("Alert", () => {
       <Alert
         type={BootstrapUI.Danger}
         icon={<></>}
-        text="This is the text explaining why the alert was triggered."
+        text="I am a test Alert"
         title="Alert title"
       />
     );

@@ -1,8 +1,9 @@
+import React from "react";
 import { DropdownButtonMenuProps } from "./DropdownButtonMenu.type" 
  
- const DropdownButtonMenu = ({___LIST_OF_PROPS____}: DropdownButtonMenuProps) => {
+ const DropdownButtonMenu = ({test}: DropdownButtonMenuProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

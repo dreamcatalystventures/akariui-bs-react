@@ -1,5 +1,5 @@
+import React from "react";
 import { AccordionItemProps } from "./AccordionItem.type" 
- 
  const AccordionItem = ({id, children, parent, title}: AccordionItemProps) => {
   return (
     <>

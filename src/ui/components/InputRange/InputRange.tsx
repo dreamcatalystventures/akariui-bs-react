@@ -1,8 +1,9 @@
+import React from "react";
 import { InputRangeProps } from "./InputRange.type" 
  
- const InputRange = ({___LIST_OF_PROPS____}: InputRangeProps) => {
+ const InputRange = ({test}: InputRangeProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

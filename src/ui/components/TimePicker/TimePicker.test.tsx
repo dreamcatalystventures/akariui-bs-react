@@ -8,7 +8,7 @@ describe("TimePicker", () => {
   test("render the test TimePicker", async () => {
     render(
       <TimePicker
-         __ PASTE PROPS USAGE __
+         test={"I am a test TimePicker"}
       />
     );
     const timePicker = screen.getByText("I am a test TimePicker");

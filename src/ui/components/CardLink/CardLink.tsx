@@ -1,3 +1,4 @@
+import React from "react";
 import { CardLinkProps } from "./CardLink.type";
 
 const CardLink = ({ title, to, icon }: CardLinkProps) => {

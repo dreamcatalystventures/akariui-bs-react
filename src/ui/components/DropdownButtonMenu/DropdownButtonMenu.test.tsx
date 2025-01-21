@@ -8,7 +8,7 @@ describe("DropdownButtonMenu", () => {
   test("render the test DropdownButtonMenu", async () => {
     render(
       <DropdownButtonMenu
-         __ PASTE PROPS USAGE __
+         test={"I am a test DropdownButtonMenu"}
       />
     );
     const dropdownButtonMenu = screen.getByText("I am a test DropdownButtonMenu");

@@ -8,7 +8,7 @@ describe("RenderWhenGrid", () => {
   test("render the test RenderWhenGrid", async () => {
     render(
       <RenderWhenGrid
-         __ PASTE PROPS USAGE __
+         test={"I am a test RenderWhenGrid"}
       />
     );
     const renderWhenGrid = screen.getByText("I am a test RenderWhenGrid");

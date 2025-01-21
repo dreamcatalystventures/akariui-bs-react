@@ -1,4 +1,5 @@
-export interface H1Props {
-  __PASTE PROPS FROM OLD FILE OR ADD NEW ONES__
-}
+import { ReactNode } from "react";
 
+export interface H1Props {
+  test: string;
+}

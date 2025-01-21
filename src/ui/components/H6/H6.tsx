@@ -1,8 +1,9 @@
+import React from "react";
 import { H6Props } from "./H6.type" 
  
- const H6 = ({___LIST_OF_PROPS____}: H6Props) => {
+ const H6 = ({test}: H6Props) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

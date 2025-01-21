@@ -1,8 +1,9 @@
+import React from "react";
 import { InputFileProps } from "./InputFile.type" 
  
- const InputFile = ({___LIST_OF_PROPS____}: InputFileProps) => {
+ const InputFile = ({test}: InputFileProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

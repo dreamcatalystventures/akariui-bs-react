@@ -8,7 +8,7 @@ describe("InputHidden", () => {
   test("render the test InputHidden", async () => {
     render(
       <InputHidden
-         __ PASTE PROPS USAGE __
+         test={"I am a test InputHidden"}
       />
     );
     const inputHidden = screen.getByText("I am a test InputHidden");

@@ -8,7 +8,7 @@ describe("ToggleButtonGroup", () => {
   test("render the test ToggleButtonGroup", async () => {
     render(
       <ToggleButtonGroup
-         __ PASTE PROPS USAGE __
+         test={"I am a test ToggleButtonGroup"}
       />
     );
     const toggleButtonGroup = screen.getByText("I am a test ToggleButtonGroup");

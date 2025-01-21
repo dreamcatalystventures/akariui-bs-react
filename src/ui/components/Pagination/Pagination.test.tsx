@@ -8,7 +8,7 @@ describe("Pagination", () => {
   test("render the test Pagination", async () => {
     render(
       <Pagination
-         __ PASTE PROPS USAGE __
+         test={"I am a test Pagination"}
       />
     );
     const pagination = screen.getByText("I am a test Pagination");

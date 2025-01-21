@@ -8,7 +8,7 @@ describe("InputLabel", () => {
   test("render the test InputLabel", async () => {
     render(
       <InputLabel
-         __ PASTE PROPS USAGE __
+         test={"I am a test InputLabel"}
       />
     );
     const inputLabel = screen.getByText("I am a test InputLabel");

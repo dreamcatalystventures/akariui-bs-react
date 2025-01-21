@@ -1,3 +1,4 @@
+import React from "react";
 import { AlertProps } from "./Alert.type";
 
 const Alert = ({ type, text, title, icon }: AlertProps) => {

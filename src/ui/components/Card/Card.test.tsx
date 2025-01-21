@@ -10,7 +10,7 @@ describe("Card", () => {
   test("render the test Card", async () => {
     render(
       <Card
-        title=""
+        title="I am a test Card"
         children={<>This is card content</>}
         buttons={
           <>
@@ -19,7 +19,7 @@ describe("Card", () => {
               theme={BootstrapUI.Primary}
               type="button"
               onClick={() => alert("Clicked")}
-              value="I am a test button"
+              value="I am a test Card"
               visible
             />
           </>
@@ -27,7 +27,7 @@ describe("Card", () => {
         className=""
       />
     );
-    const cardLink = screen.getByText("I am a test CardLink");
+    const cardLink = screen.getByText("I am a test Card");
     expect(cardLink).toBeInTheDocument();
   });
 });

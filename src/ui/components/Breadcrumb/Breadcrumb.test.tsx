@@ -7,7 +7,7 @@ describe("Breadcrumb", () => {
   //simple render for component
   test("render the test Breadcrumb", async () => {
     render(<Breadcrumb active="Manage" navItems={["Users", "Manage"]} />);
-    const breadcrumb = screen.getByText("I am a test Breadcrumb");
+    const breadcrumb = screen.getByText("Users");
     expect(breadcrumb).toBeInTheDocument();
   });
 });

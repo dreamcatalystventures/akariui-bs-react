@@ -1,8 +1,9 @@
+import React from "react";
 import { H4Props } from "./H4.type" 
  
- const H4 = ({___LIST_OF_PROPS____}: H4Props) => {
+ const H4 = ({test}: H4Props) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

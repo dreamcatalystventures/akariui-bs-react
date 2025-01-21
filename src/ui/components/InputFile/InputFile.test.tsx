@@ -8,7 +8,7 @@ describe("InputFile", () => {
   test("render the test InputFile", async () => {
     render(
       <InputFile
-         __ PASTE PROPS USAGE __
+         test={"I am a test InputFile"}
       />
     );
     const inputFile = screen.getByText("I am a test InputFile");

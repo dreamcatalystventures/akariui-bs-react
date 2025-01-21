@@ -1,8 +1,9 @@
+import React from "react";
 import { TimePickerProps } from "./TimePicker.type" 
  
- const TimePicker = ({___LIST_OF_PROPS____}: TimePickerProps) => {
+ const TimePicker = ({test}: TimePickerProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

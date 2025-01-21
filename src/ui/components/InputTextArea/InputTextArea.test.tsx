@@ -8,7 +8,7 @@ describe("InputTextArea", () => {
   test("render the test InputTextArea", async () => {
     render(
       <InputTextArea
-         __ PASTE PROPS USAGE __
+         test={"I am a test InputTextArea"}
       />
     );
     const inputTextArea = screen.getByText("I am a test InputTextArea");

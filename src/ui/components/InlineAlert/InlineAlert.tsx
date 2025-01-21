@@ -1,8 +1,9 @@
+import React from "react";
 import { InlineAlertProps } from "./InlineAlert.type" 
  
- const InlineAlert = ({___LIST_OF_PROPS____}: InlineAlertProps) => {
+ const InlineAlert = ({test}: InlineAlertProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

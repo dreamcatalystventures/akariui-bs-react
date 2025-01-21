@@ -1,8 +1,9 @@
+import React from "react";
 import { H5Props } from "./H5.type" 
  
- const H5 = ({___LIST_OF_PROPS____}: H5Props) => {
+ const H5 = ({test}: H5Props) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

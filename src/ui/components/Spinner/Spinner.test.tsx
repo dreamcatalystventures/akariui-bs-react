@@ -8,7 +8,7 @@ describe("Spinner", () => {
   test("render the test Spinner", async () => {
     render(
       <Spinner
-         __ PASTE PROPS USAGE __
+         test={"I am a test Spinner"}
       />
     );
     const spinner = screen.getByText("I am a test Spinner");

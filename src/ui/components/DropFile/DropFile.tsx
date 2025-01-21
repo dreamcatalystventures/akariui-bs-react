@@ -1,8 +1,9 @@
+import React from "react";
 import { DropFileProps } from "./DropFile.type" 
  
- const DropFile = ({___LIST_OF_PROPS____}: DropFileProps) => {
+ const DropFile = ({test}: DropFileProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

@@ -8,7 +8,7 @@ describe("IndeterminateCheckbox", () => {
   test("render the test IndeterminateCheckbox", async () => {
     render(
       <IndeterminateCheckbox
-         __ PASTE PROPS USAGE __
+         test={"I am a test IndeterminateCheckbox"}
       />
     );
     const indeterminateCheckbox = screen.getByText("I am a test IndeterminateCheckbox");

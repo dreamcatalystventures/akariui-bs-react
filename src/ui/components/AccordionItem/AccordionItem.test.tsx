@@ -15,7 +15,7 @@ describe("AccordionItem", () => {
         This is a test accordion item content
       </AccordionItem>
     );
-    const accordionItem = screen.getByText("I am a test AccordionItem");
+    const accordionItem = screen.getByText("Accordion Item 1");
     expect(accordionItem).toBeInTheDocument();
   });
 });

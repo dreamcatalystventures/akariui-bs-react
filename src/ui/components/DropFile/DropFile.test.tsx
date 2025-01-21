@@ -8,7 +8,7 @@ describe("DropFile", () => {
   test("render the test DropFile", async () => {
     render(
       <DropFile
-         __ PASTE PROPS USAGE __
+         test={"I am a test DropFile"}
       />
     );
     const dropFile = screen.getByText("I am a test DropFile");

@@ -1,8 +1,9 @@
+import React from "react";
 import { RadioGroupCardProps } from "./RadioGroupCard.type" 
  
- const RadioGroupCard = ({___LIST_OF_PROPS____}: RadioGroupCardProps) => {
+ const RadioGroupCard = ({test}: RadioGroupCardProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

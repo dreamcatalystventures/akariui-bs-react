@@ -8,7 +8,7 @@ describe("TabCard", () => {
   test("render the test TabCard", async () => {
     render(
       <TabCard
-         __ PASTE PROPS USAGE __
+         test={"I am a test TabCard"}
       />
     );
     const tabCard = screen.getByText("I am a test TabCard");

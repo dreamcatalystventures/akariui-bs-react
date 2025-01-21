@@ -8,7 +8,7 @@ describe("InlineAlert", () => {
   test("render the test InlineAlert", async () => {
     render(
       <InlineAlert
-         __ PASTE PROPS USAGE __
+         test={"I am a test InlineAlert"}
       />
     );
     const inlineAlert = screen.getByText("I am a test InlineAlert");

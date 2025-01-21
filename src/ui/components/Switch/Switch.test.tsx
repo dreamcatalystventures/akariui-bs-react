@@ -8,11 +8,11 @@ describe("Switch", () => {
   test("render the test Switch", async () => {
     render(
       <Switch
-         __ PASTE PROPS USAGE __
+         test={"I am a test Switch"}
       />
     );
-    const switch = screen.getByText("I am a test Switch");
-    expect(switch).toBeInTheDocument();
+    const switchControl = screen.getByText("I am a test Switch");
+    expect(switchControl).toBeInTheDocument();
   });
 
 });

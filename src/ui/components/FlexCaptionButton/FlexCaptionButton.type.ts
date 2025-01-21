@@ -1,4 +1,4 @@
 export interface FlexCaptionButtonProps {
-  __PASTE PROPS FROM OLD FILE OR ADD NEW ONES__
+  test: string //remove on implementation
 }
 

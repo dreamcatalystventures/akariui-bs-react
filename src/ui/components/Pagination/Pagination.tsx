@@ -1,8 +1,9 @@
+import React from "react";
 import { PaginationProps } from "./Pagination.type" 
  
- const Pagination = ({___LIST_OF_PROPS____}: PaginationProps) => {
+ const Pagination = ({test}: PaginationProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

@@ -8,7 +8,7 @@ describe("RadioGroupCard", () => {
   test("render the test RadioGroupCard", async () => {
     render(
       <RadioGroupCard
-         __ PASTE PROPS USAGE __
+         test={"I am a test RadioGroupCard"}
       />
     );
     const radioGroupCard = screen.getByText("I am a test RadioGroupCard");

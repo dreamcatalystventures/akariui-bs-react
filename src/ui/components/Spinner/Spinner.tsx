@@ -1,8 +1,9 @@
+import React from "react";
 import { SpinnerProps } from "./Spinner.type" 
  
- const Spinner = ({___LIST_OF_PROPS____}: SpinnerProps) => {
+ const Spinner = ({test}: SpinnerProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

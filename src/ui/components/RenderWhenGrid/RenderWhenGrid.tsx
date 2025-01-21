@@ -1,8 +1,9 @@
+import React from "react";
 import { RenderWhenGridProps } from "./RenderWhenGrid.type" 
  
- const RenderWhenGrid = ({___LIST_OF_PROPS____}: RenderWhenGridProps) => {
+ const RenderWhenGrid = ({test}: RenderWhenGridProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

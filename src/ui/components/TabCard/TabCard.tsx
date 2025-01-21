@@ -1,8 +1,9 @@
+import React from "react";
 import { TabCardProps } from "./TabCard.type" 
  
- const TabCard = ({___LIST_OF_PROPS____}: TabCardProps) => {
+ const TabCard= ({test}: TabCardProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

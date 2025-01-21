@@ -1,3 +1,4 @@
+import React from "react";
 import { BootstrapUI } from "../../enums/BootstrapUI";
 import { BadgeProps } from "./Badge.type";
 

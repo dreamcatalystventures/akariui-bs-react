@@ -1,8 +1,9 @@
+import React from "react";
 import { SwitchProps } from "./Switch.type" 
  
- const Switch = ({___LIST_OF_PROPS____}: SwitchProps) => {
+ const Switch = ({test}: SwitchProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

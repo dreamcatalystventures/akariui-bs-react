@@ -13,7 +13,7 @@ describe("CardLink", () => {
         icon={<>Icon</>}
       />
     );
-    const cardLink = screen.getByText("I am a test CardLink");
+    const cardLink = screen.getByText("This is a card link");
     expect(cardLink).toBeInTheDocument();
   });
 });

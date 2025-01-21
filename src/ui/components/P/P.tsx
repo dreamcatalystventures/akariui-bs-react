@@ -1,8 +1,9 @@
+import React from "react";
 import { PProps } from "./P.type" 
  
- const P = ({___LIST_OF_PROPS____}: PProps) => {
+ const P = ({test}: PProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

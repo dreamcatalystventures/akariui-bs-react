@@ -8,7 +8,7 @@ describe("H2", () => {
   test("render the test H2", async () => {
     render(
       <H2
-         __ PASTE PROPS USAGE __
+         test={"I am a test H2"}
       />
     );
     const h2 = screen.getByText("I am a test H2");

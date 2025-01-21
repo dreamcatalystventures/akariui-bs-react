@@ -8,7 +8,7 @@ describe("Modal", () => {
   test("render the test Modal", async () => {
     render(
       <Modal
-         __ PASTE PROPS USAGE __
+         test={"I am a test Modal"}
       />
     );
     const modal = screen.getByText("I am a test Modal");

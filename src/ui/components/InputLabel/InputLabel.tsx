@@ -1,8 +1,9 @@
+import React from "react";
 import { InputLabelProps } from "./InputLabel.type" 
  
- const InputLabel = ({___LIST_OF_PROPS____}: InputLabelProps) => {
+ const InputLabel = ({test}: InputLabelProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

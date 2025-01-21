@@ -1,8 +1,9 @@
+import React from "react";
 import { ModalProps } from "./Modal.type" 
  
- const Modal = ({___LIST_OF_PROPS____}: ModalProps) => {
+ const Modal = ({test}: ModalProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

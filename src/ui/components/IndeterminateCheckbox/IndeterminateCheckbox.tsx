@@ -1,8 +1,9 @@
+import React from "react";
 import { IndeterminateCheckboxProps } from "./IndeterminateCheckbox.type" 
  
- const IndeterminateCheckbox = ({___LIST_OF_PROPS____}: IndeterminateCheckboxProps) => {
+ const IndeterminateCheckbox = ({test}: IndeterminateCheckboxProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

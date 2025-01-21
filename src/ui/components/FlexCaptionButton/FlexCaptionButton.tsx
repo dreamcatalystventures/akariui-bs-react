@@ -1,8 +1,9 @@
+import React from "react";
 import { FlexCaptionButtonProps } from "./FlexCaptionButton.type" 
  
- const FlexCaptionButton = ({___LIST_OF_PROPS____}: FlexCaptionButtonProps) => {
+ const FlexCaptionButton = ({test}: FlexCaptionButtonProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

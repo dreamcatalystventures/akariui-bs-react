@@ -1,8 +1,9 @@
+import React from "react";
 import { IconProps } from "./Icon.type" 
  
- const Icon = ({___LIST_OF_PROPS____}: IconProps) => {
+ const Icon = ({test}: IconProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 

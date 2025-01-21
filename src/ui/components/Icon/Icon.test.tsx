@@ -8,7 +8,7 @@ describe("Icon", () => {
   test("render the test Icon", async () => {
     render(
       <Icon
-         __ PASTE PROPS USAGE __
+         test={"I am a test Icon"}
       />
     );
     const icon = screen.getByText("I am a test Icon");

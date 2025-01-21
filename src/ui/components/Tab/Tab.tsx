@@ -1,8 +1,9 @@
+import React from "react";
 import { TabProps } from "./Tab.type" 
  
- const Tab = ({___LIST_OF_PROPS____}: TabProps) => {
+ const Tab = ({test}: TabProps) => {
   return (
-      /*ADD COMPONENT CONTENT*/
+     <>{test}</>
   )
 }
 
